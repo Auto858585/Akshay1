@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="66569" started-at="2020-08-03T17:48:49Z" finished-at="2020-08-03T17:49:55Z">
+    <groups>
+    </groups>
+    <test name="chromeTest" duration-ms="43767" started-at="2020-08-03T17:48:49Z" finished-at="2020-08-03T17:49:32Z">
+      <class name="org.qsp.test_Ng.Parallel_browserpro">
+        <test-method status="PASS" signature="bm(java.lang.String)[pri:0, instance:org.qsp.test_Ng.Parallel_browserpro@724af044]" name="bm" is-config="true" duration-ms="4981" started-at="2020-08-03T10:48:49Z" finished-at="2020-08-03T10:48:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="m()[pri:0, instance:org.qsp.test_Ng.Parallel_browserpro@724af044]" name="m" duration-ms="38760" started-at="2020-08-03T10:48:54Z" finished-at="2020-08-03T10:49:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m -->
+      </class> <!-- org.qsp.test_Ng.Parallel_browserpro -->
+    </test> <!-- chromeTest -->
+    <test name="firefoxTest" duration-ms="66569" started-at="2020-08-03T17:48:49Z" finished-at="2020-08-03T17:49:55Z">
+      <class name="org.qsp.test_Ng.Parallel_browserpro">
+        <test-method status="PASS" signature="bm(java.lang.String)[pri:0, instance:org.qsp.test_Ng.Parallel_browserpro@51081592]" name="bm" is-config="true" duration-ms="49696" started-at="2020-08-03T10:48:49Z" finished-at="2020-08-03T10:49:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="m()[pri:0, instance:org.qsp.test_Ng.Parallel_browserpro@51081592]" name="m" duration-ms="16850" started-at="2020-08-03T10:49:38Z" finished-at="2020-08-03T10:49:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m -->
+      </class> <!-- org.qsp.test_Ng.Parallel_browserpro -->
+    </test> <!-- firefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
